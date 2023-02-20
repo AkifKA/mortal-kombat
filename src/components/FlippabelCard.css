@@ -1,0 +1,6 @@
+.flippabel-card-container {
+  /*? === Sizing === */
+  height: 530px;
+  width: 300px;
+  perspective: 1000px;
+}

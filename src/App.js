@@ -1,5 +1,11 @@
+import "./App.css";
+import FlippabelCard from "./components/FlippabelCard";
 function App() {
-  return <div>APP</div>;
+  return (
+    <div className="App">
+      <FlippabelCard />
+    </div>
+  );
 }
 
 export default App;
