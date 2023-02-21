@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/akifka.github.io/mortal-kombat/static/css/main.68993bd3.css",
-    "main.js": "/akifka.github.io/mortal-kombat/static/js/main.881ae970.js",
-    "index.html": "/akifka.github.io/mortal-kombat/index.html",
-    "main.68993bd3.css.map": "/akifka.github.io/mortal-kombat/static/css/main.68993bd3.css.map",
-    "main.881ae970.js.map": "/akifka.github.io/mortal-kombat/static/js/main.881ae970.js.map"
+    "main.css": "/mortal-kombat/static/css/main.68993bd3.css",
+    "main.js": "/mortal-kombat/static/js/main.881ae970.js",
+    "index.html": "/mortal-kombat/index.html",
+    "main.68993bd3.css.map": "/mortal-kombat/static/css/main.68993bd3.css.map",
+    "main.881ae970.js.map": "/mortal-kombat/static/js/main.881ae970.js.map"
   },
   "entrypoints": [
     "static/css/main.68993bd3.css",
