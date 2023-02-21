@@ -1,13 +1,32 @@
 import "./FlippabelCard.css";
 import Card from "./Card/Card";
 import characterData from "../assets/data";
+import { useState } from "react";
+
 const FlippabelCard = () => {
+  const [inputText, setInput] = useState("");
+
   return (
-    <div className="flippabel-card-container">
-      {characterData.map((item, index) => (
-        <Card item={item} key={index} />
-      ))}
-    </div>
+    <>
+      <div className="search">
+        <input
+          type="search"
+          name="search"
+          id="search"
+          placeholder="Search for characters"
+          onChange={(e) => setInput(e.target.value)}
+        />
+      </div>
+      <div className="flippabel-card-container">
+        {characterData
+          .filter((el) =>
+            el.name.toLowerCase().includes(inputText.toLowerCase())
+          )
+          .map((item, index) => (
+            <Card item={item} key={index} />
+          ))}
+      </div>
+    </>
   );
 };
 

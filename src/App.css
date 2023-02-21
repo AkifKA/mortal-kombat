@@ -1,9 +1,15 @@
-.App {
-  /*? === Content Aligment === */
+.navbar {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
-  /* gap: 3rem; */
-  /* margin: 2rem; */
+  gap: 1rem;
+}
+
+.logo img {
+  width: 200px;
+  border-radius: 5px;
+}
+
+a {
+  font-size: 16px;
 }

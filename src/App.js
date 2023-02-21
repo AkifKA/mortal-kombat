@@ -1,10 +1,14 @@
 import "./App.css";
 import FlippabelCard from "./components/FlippabelCard";
+import Header from "./components/Header/Header";
 function App() {
   return (
-    <div className="App">
-      <FlippabelCard />
-    </div>
+    <>
+      <Header />
+      <div className="main-container">
+        <FlippabelCard />
+      </div>
+    </>
   );
 }
 
