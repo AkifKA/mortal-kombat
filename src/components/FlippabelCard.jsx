@@ -1,8 +1,7 @@
-import "./FlippabelCard.css";
 import Card from "./Card/Card";
 import characterData from "../assets/data";
 import { useState } from "react";
-
+import "./FlippabelCard.css";
 const FlippabelCard = () => {
   const [inputText, setInput] = useState("");
 

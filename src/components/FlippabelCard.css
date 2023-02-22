@@ -28,9 +28,13 @@
   height: 400px;
   width: 300px;
   perspective: 1000px;
+  display: flex;
+  /* justify-content: center;
+  flex-wrap: wrap;
+  align-items: center; */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+  grid-template-rows: auto;
   gap: 2rem;
   margin: 5rem 10rem;
 }

@@ -1,8 +1,8 @@
 import React from "react";
-import "./Card.css";
-import "./FlipTransition.css";
 import { CSSTransition } from "react-transition-group";
 import { useState } from "react";
+import "./FlipTransition.css";
+import "./Card.css";
 function Card({ item }) {
   const [showFront, setShowFront] = useState(true);
   const { name, desc, img, gender, gif, origin, resides, species } = item;
